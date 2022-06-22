@@ -53,7 +53,7 @@
                 <h3> <span>age:</span>21</h3>
                 <h3> <span>qualification :</span> Bachlor of Engineering (currently in 7th sem)</h3>
                 <h3> <span>language:</span>English,Hindi,Gujarati</h3>
-                <a href="#"> <button class="btn">Download CV</button></a>
+                 <button class="btn"  >Download CV</button>
             </div>
             <div class="counter">
                 <div class="box">
@@ -145,27 +145,19 @@
 
 
                 </div>
-                <div class="s-icons">
-                    <div class="g">
-                   <h3><a href="https://github.com/KalpeshParmar9574"> <i class="fa-brands fa-github"> github</i> </a>
-                   </h3> 
-                </div>
-               
-                <div class="l">
-                   <h3> <a href="https://www.linkedin.com/in/kalpesh-parmar9574"> <i class="fa-brands fa-linkedin">LinkedIn </i> </a>
-                   </h3>  </div>
-                </div>
-
-
-            </div>
+           <div class="s-handel">
+            <h2><a href="https://github.com/kalpeshparmar9574"><p id="g">GitHub</p></a></h2>
+            <h2><a href="https://linkedin.com/kalpeshparmar9574"><p id="l">LinkedIn</p></a></h2>
+            <h2><a href="https://instagram.com/kp_9574"><p id="i">Instagram</p></a></h2>
+           </div>
 
             <form action="">
 
-                <input type="text" placeholder="name" class="box">
-                <input type="email" placeholder="email" class="box">
-                <input type="text" placeholder="project" class="box">
-                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+                <input id="name" type="text" placeholder="name" class="box">
+                <input id="email" type="email" placeholder="email" class="box">
+                <input id="p-name"type="text" placeholder="project" class="box">
+                <textarea name="" id="msg" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                 <button type="submit" onclick="sendMail()" class="btn"> send <i class="fas fa-paper-plane"></i> </button> 
 
             </form>
         </div>
@@ -181,8 +173,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!-- custom JS file -->
     <script src="script.js "></script>
+    <script src="sendmail.js"></script>
 </body>
 
 </html>

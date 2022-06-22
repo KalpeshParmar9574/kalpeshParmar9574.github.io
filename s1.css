@@ -361,18 +361,30 @@ html::-webkit-scrollbar-track{
    z-index: 100;
    display: none;
 }
-
-.s-icon{
-   
-    height: 40px;
-    border: 2px solid white;
+.s-handel{
+    display: flex;
     align-items: center;
-    padding: 5px;
-    justify-content: center;
-    width: 100px;
-    margin-top: 10px;
+    justify-self: center;
     
+
+}
+.s-handel p{
     
+    margin: 20px;
+    font-weight: 40px;
+}
+ #g{
+    background-color:black;
+    color:white ;
+}
+#i{
+    background-color: hotpink;
+    color: white;
+
+}
+#l{
+    background-color: rgb(59, 127, 200);
+    color: white;
 }
 
 
