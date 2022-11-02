@@ -238,12 +238,13 @@ html::-webkit-scrollbar-track{
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
+    padding-top: 1rem;
 }
 .education .box-container .box span{
     font-size: 1.3rem;
     background: #222;
     color: #fff;
-    padding-top: 1.5rem;
+    padding-top:0.5rem;
 
 }
 .education .box-container .box p{
