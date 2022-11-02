@@ -375,7 +375,7 @@ html::-webkit-scrollbar-track{
     font-weight: 40px;
 }
  #g{
-    background-color:black;
+    background-image: linear-gradient( green,black);
     color:white ;
 }
 #i{
@@ -384,10 +384,13 @@ html::-webkit-scrollbar-track{
 
 }
 #l{
-    background-color: rgb(59, 127, 200);
+    background-image: linear-gradient(rgb(14, 233, 245),blue);
     color: white;
 }
-
+#lt{
+    background-image: linear-gradient(yellow,black);
+    color: white;
+}
 
 @media (max-width:1200px){
     html{
