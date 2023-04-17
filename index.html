@@ -11,6 +11,14 @@
 
     <!-- custom css file-->
     <link rel="stylesheet" href="s1.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("wanFqtLq_GIgEQj_l");
+})();
+</script>
 
 </head>
 
@@ -167,13 +175,13 @@
             <h2><a href="https://leetcode.com/itskp_9/"><p id="lt">LeetCode</p></a></h2>
            </div>
 
-            <form action="">
+            <form action="" id="contact">
 
                 <input id="name" type="text" placeholder="name" class="box">
                 <input id="email" type="email" placeholder="email" class="box">
-                <input id="p-name"type="text" placeholder="project" class="box">
+                <input id="project"type="text" placeholder="project" class="box">
                 <textarea name="" id="msg" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-                 <button type="submit" onclick="sendMail()" class="btn"> send <i class="fas fa-paper-plane"></i> </button> 
+                 <button type="submit"  class="btn" id="contact_btn"> send <i class="fas fa-paper-plane"></i> </button> 
 
             </form>
         </div>
@@ -193,6 +201,7 @@
   
     <!-- custom JS file -->
     <script src="script.js "></script>
+    <script src="emailScript.js"></script>
 
 </body>
 
